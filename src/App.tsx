@@ -1,20 +1,11 @@
-import React, {useEffect} from 'react';
-import {useAppDispatch, useAppSelector} from "./apps/hooks";
+import React from 'react';
+import Home from "./pages/Home";
 
 const App = () => {
-
-    const selector = useAppSelector(state => state);
-    const dispatch = useAppDispatch();
-
-    useEffect(() => {
-        console.log(selector)
-    }, [])
-
     return (
         <div>
-            <h1>hello world</h1>
+            <Home/>
         </div>
     );
 }
-
 export default App;
