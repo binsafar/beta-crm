@@ -1,0 +1,14 @@
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #999;
+}
+ul a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=header.css.map */
